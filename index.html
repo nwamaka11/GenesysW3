@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <main>
+        <h1>Genesys Upskill Survey Form</h1>
+        <div class="container">
+            <form action="" method="post">
+                <div class="input-box">
+                    <label for="name">Name</label><br>
+                    <input type="text" placeholder="Enter your name" name="name" required><br>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">Email</label><br>
+                    <input type="text" placeholder="Enter your email address" name="email" required><br>
+                </div>
+
+                <div class="input-box">
+                    <label for="age">Age</label><br>
+                    <input type="number" placeholder="Enter your age" name="age" required><br>
+                </div>
+
+                
+                <span class="description">Which option best describes you?</span><br>
+                    <div class="dropdown">
+                    <select name="employment status" id="employment status">
+                        <option value="Student">Student</option>
+                        <option value="Self-employed">Self-employed</option>
+                        <option value="Employed">Employed</option>
+                        <option value="Unemployed">Unemployed</option>
+                    </select><br>
+                    </div>  
+                                
+                <span class="recommend">Would you recommend Genesys Upskill to a friend?</span> <br> 
+                    <div class="radio">
+                    <input type="radio" name="Genesys" id="Yes">
+                    <label for="Yes">Yes</label> <br>
+                    <input type="radio" name="Genesys" id="No"> 
+                    <label for="No">No</label> <br>
+                    <input type="radio" name="Genesys" id="Maybe"> 
+                    <label for="Maybe">Maybe</label> <br>
+                </div>
+
+                <span class="Languages">Languages and frameworks known (Check all that apply)</span><br>
+                    <div class="checkbox">
+                    <input type="checkbox" name="Languages">
+                    <label for="C">C</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="C++">C++</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="C#">C#</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="Java">Java</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="Python">Python</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="JavaScript">JavaScript</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="Angular">Angular</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="React">React</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="Django">Django</label><br>
+                    <input type="checkbox" name="Languages">
+                    <label for="Spring">Spring</label><br>
+                </div>
+                <div class="input-box">
+                <label for="suggestions"><p>Any Comments or Suggestion</p></label><br>
+                
+                    <input type="textarea"><br>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+            <p>Backgroup image from <a href="https://images.unsplash.com/photo-1711116180104-b737dccc850b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D">Onsplash</a></p>
+        </div>
+        
+    </main>
+</body>
+</html>
